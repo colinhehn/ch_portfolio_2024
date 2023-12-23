@@ -1,0 +1,24 @@
+/* Import Material UI styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Apply Material UI styles to the root element */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Customize Material UI components */
+.MuiButton-root {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.MuiButton-root:hover {
+    background-color: #1976d2;
+}
+
+.MuiButton-root:active {
+    background-color: #1565c0;
+}
+
+/* Add your custom styles below this line */
