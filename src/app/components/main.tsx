@@ -1,12 +1,32 @@
+'use client'
+
 import React from 'react'
+import Typed from 'typed.js'
 
 const Main = () => {
+
+    // Create reference to store the DOM element containing the animation
+    const el = React.useRef(null);
+
+    React.useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: ['Hello!', 'We\'re under construction right now.', 'But we\'ll be in business soon.'],
+            typeSpeed: 80,
+            backSpeed: 60,
+            loop: true,
+        });
+
+        return () => {
+            // Destroy Typed instance during cleanup to stop animation
+            typed.destroy();
+        };
+    }, []);
 
     return (
         <div className='main'>
             <video autoPlay loop muted> <source src='/video.mp4' type='video/mp4' /> </video>
             <div className="content">
-                <h1>Hello! Welcome to my site.</h1>
+                <span className="typing" ref={el} />
             </div>
         </div>
     )
