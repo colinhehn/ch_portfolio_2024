@@ -1,5 +1,4 @@
 import React from 'react'
-import BGVideo from '../assets/video.mp4'
 
 const Main = () => {
 
