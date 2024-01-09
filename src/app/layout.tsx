@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Libre_Caslon_Text } from 'next/font/google'
+import { Source_Code_Pro } from 'next/font/google'
 
-const caslon = Libre_Caslon_Text({
+const scp_font = Source_Code_Pro({
   weight: ['400', '700'],
   style: 'normal',
   subsets: ['latin'],
-  variable: '--font-caslon',
+  variable: '--font-scp',
 })
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={caslon.className}>{children}</body>
+      <body className={scp_font.className}>{children}</body>
     </html>
   )
 }
