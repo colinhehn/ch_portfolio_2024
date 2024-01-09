@@ -25,6 +25,7 @@ const Main = () => {
     return (
         <div className='main'>
             <video autoPlay loop muted> <source src='/video.mp4' type='video/mp4' /> </video>
+            <div className="videoOverlay" />
             <div className="content">
                 <span className="typing" ref={el} />
             </div>

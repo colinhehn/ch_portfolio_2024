@@ -1,8 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import { Libre_Caslon_Text } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const caslon = Libre_Caslon_Text({
+  weight: ['400', '700'],
+  style: 'normal',
+  subsets: ['latin'],
+  variable: '--font-caslon',
+})
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -16,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={caslon.className}>{children}</body>
     </html>
   )
 }

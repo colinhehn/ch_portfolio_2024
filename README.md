@@ -2,7 +2,6 @@
 Just gonna use this README to figure out wtf to do with the site, like TODO, potential features, packages to use, where to find other versions (because I want to hold onto the COMING SOON format while also making an ACTUAL portfolio), etc.
 
 ## TODO
-- Typewriter effect with dynamic text. It needs to start with nothing, just a blinking cursor, then pretend type "Hello!", pretend delete it, then type "Welcome to my site!", etc.
 - Blur the damn background video. Maybe it being hella compressed will be okay if it's blurred?
 - Add linktree hyperlink at the bottom of the page. That way they can access all my socials and stuff despite this portfolio being unfinished.
 - Loading animation. Don't want page to load before video is loaded, or have excessive load time with no output. Needs to show user that they made it to the site, just that the video is loading.
