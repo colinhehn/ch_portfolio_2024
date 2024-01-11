@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./favicon.ico" sizes="any" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </head>
       <body className={scp_font.className}>{children}</body>
     </html>
