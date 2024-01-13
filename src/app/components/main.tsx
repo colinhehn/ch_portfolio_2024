@@ -29,6 +29,14 @@ const Main = () => {
             <div className="content">
                 <span className="typing" ref={el} />
             </div>
+            <div className="footer">
+                <div className="footer">
+                    <button className="button">
+                        <span className="icon">Icon</span>
+                        <span className="text">See what I'm doing!</span>
+                    </button>
+                </div>
+            </div>
         </div>
     )
 }
