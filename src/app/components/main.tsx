@@ -32,7 +32,7 @@ const Main = () => {
             <div className="footer">
                 <div className="footer">
                     <button className="button">
-                        {/* <img src="/path/to/image.png" alt="Button Image" className="button-image" /> */}
+                        <img src="/path/to/image.png" alt="Button Image" className="button-image" />
                         <span className="button-text">Button Text</span>
                     </button>
                 </div>
