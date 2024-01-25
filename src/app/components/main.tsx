@@ -33,7 +33,7 @@ const Main = () => {
                 <div className="footer">
                     <button className="button">
                         <img src="/lt_icon.webp" alt="LinkTree Logo" className="button-image" />
-                        <span className="button-text">See what I'm up to!</span>
+                        <span className="button-text">See what I&apos;m up to!</span>
                     </button>
                 </div>
             </div>
