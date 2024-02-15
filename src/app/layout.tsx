@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Source_Code_Pro } from 'next/font/google'
-import Head from 'next/head'
 
 const scp_font = Source_Code_Pro({
   weight: ['400', '700'],

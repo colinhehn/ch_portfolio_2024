@@ -14,6 +14,7 @@ const Main = () => {
             typeSpeed: 80,
             backSpeed: 60,
             loop: true,
+            showCursor: false,
         });
 
         return () => {
