@@ -1,9 +1,7 @@
-import Main from "./components/main"
-
 export default function Home() {
   return (
     <div>
-      <Main />
+      <h1>hello!!!</h1>
     </div>
-  )
+  );
 }
