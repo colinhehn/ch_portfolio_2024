@@ -1,3 +1,112 @@
-h1 {
-    font-family: sans-serif;
+a {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #f0ed9d;
+}
+
+img {
+    max-width: 25%;
+}
+
+.back_button {
+    height: 30px;
+    width: auto;
+}
+
+@media (min-width: 992px) {
+    .back_button {
+        height: 35px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    .personal-pic {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 767px) {
+    .about-me-header {
+        text-align: right;
+    }
+
+    .about-me-body {
+        text-align: right;
+    }
+
+    .content-column {
+        margin-right: -25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-body {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content-column {
+        margin-left: 200px;
+    }
+}
+
+.social_button_navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social_button {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+}
+
+.typed-cursor {
+    font-size: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    color: #fffeaf;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
