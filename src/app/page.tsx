@@ -1,11 +1,14 @@
+import React from "react";
+import "./globals.css";
+
 export default function Home() {
   return (
     <div>
       <main>
         <p>I'm Colin, and here's a collection of my work.</p>
         <nav>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
+          <a href="/about">About</a>
+          <a href="/projects">Projects</a>
         </nav>
         <img src="withthewater.jpg"></img>
         <div className="social_button_nav">
