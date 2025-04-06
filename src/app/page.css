@@ -1,0 +1,35 @@
+.social_button_navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social_button {
+    height: 40px;
+    width: auto;
+    margin: 10px;
+}
+
+.typed-cursor {
+    font-size: 30px;
+}
+
+.headshot_main {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+a {
+    color: #f0ed9d;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
