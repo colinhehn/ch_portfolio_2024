@@ -2,6 +2,7 @@
 
 import React from "react";
 import Typed from "typed.js";
+import "./globals.css";
 
 export default function Typed_Title() {
   // Create reference to store the DOM element containing the animation
@@ -38,7 +39,9 @@ export default function Typed_Title() {
       <span
         ref={el}
         style={{
-          fontSize: "30px",
+          fontSize: "35px",
+          fontStyle: "normal",
+          fontFamily: "Poppins, sans-serif",
         }}
       />
     </div>

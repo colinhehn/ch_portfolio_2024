@@ -1,28 +1,7 @@
-.social_button_navigation {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.social_button {
-    height: 40px;
-    width: auto;
-    margin: 10px;
-}
-
 .typed-cursor {
-    font-size: 30px;
-}
-
-.headshot_main {
-    max-width: 40%;
-    height: auto;
-    border-radius: 50%;
-}
-
-a {
-    color: #f0ed9d;
-    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #fffeaf;
+    font-size: 35px;
 }
 
 nav {
@@ -31,5 +10,50 @@ nav {
     align-items: center;
     flex-direction: row;
     gap: 20px;
+    margin: 10px;
+}
+
+.nav_button {
+    background-color: #fffeaf;
+    height: 35px;
+    width: auto;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: #272727;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.main_subtitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.headshot_main {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.social_button_navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.social_button {
+    height: 40px;
+    width: auto;
     margin: 10px;
 }

@@ -8,10 +8,16 @@ export default function Home() {
     <div>
       <main>
         <Typed_Title />
-        <p>I'm Colin, and here's a collection of my work.</p>
+        <p className="main_subtitle">
+          I'm Colin, and here's a collection of my work.
+        </p>
         <nav>
-          <a href="./about">About</a>
-          <a href="/projects">Projects</a>
+          <a href="./about">
+            <div className="nav_button">About</div>
+          </a>
+          <a href="./projects">
+            <div className="nav_button">Projects</div>
+          </a>
         </nav>
         <img src="withthewater.jpg" className="headshot_main"></img>
         <div className="social_button_navigation">
