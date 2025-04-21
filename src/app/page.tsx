@@ -9,7 +9,7 @@ export default function Home() {
       <main>
         <Typed_Title />
         <p className="main_subtitle">
-          I'm Colin, and here's a collection of my work.
+          {"I'm Colin, and here's a collection of my work."}
         </p>
         <nav>
           <a href="./about">
