@@ -1,3 +1,7 @@
+import React from "react";
+import "../page.css";
+import "../globals.css";
+
 export default function SocialNavigation() {
   return (
     <div className="social_button_navigation">

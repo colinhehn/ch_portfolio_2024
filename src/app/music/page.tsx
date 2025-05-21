@@ -2,12 +2,16 @@ import React from "react";
 import "../../app/globals.css";
 import "./music.css";
 import SocialNavigation from "../components/social_nav";
+import BackButton from "../components/back_button";
 
 export default function Music() {
   return (
     <div className="about-container">
       <main>
-        <h1 className="about-title">Music</h1>
+        <div className="about-header">
+          <BackButton />
+          <h1 className="about-title">Music</h1>
+        </div>
         <div className="about-content">
           <div className="about-text">
             <p>

@@ -2,12 +2,16 @@ import React from "react";
 import "../../app/globals.css";
 import "./aboutme.css";
 import SocialNavigation from "../components/social_nav";
+import BackButton from "../components/back_button";
 
 export default function AboutMe() {
   return (
     <div className="about-container">
       <main>
-        <h1 className="about-title">About Me</h1>
+        <div className="about-header">
+          <BackButton />
+          <h1 className="about-title">About Me</h1>
+        </div>
         <div className="about-content">
           <div className="about-text">
             <p>

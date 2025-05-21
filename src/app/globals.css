@@ -44,3 +44,18 @@ main {
     font-weight: 400;
     font-style: normal;
 }
+
+.back_button {
+    height: 30px;
+    width: auto;
+    margin: 10px;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
