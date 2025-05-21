@@ -10,19 +10,29 @@ export default function Software() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-              dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed
-              auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in
-              nulla enim. Phasellus molestie magna non est bibendum non
-              venenatis nisl tempor.
+              What got me into writing code in the first place was making
+              Minecraft mods back in eighth grade. Now, ten years later I’m
+              writing logic for backends serving thousands of users!
             </p>
             <p>
-              Suspendisse in orci enim. Donec sed ligula in felis ultricies
-              fermentum. Aliquam erat volutpat. Sed congue augue vitae neque.
-              Fusce lorem ipsum, dignissim at augue ac, consequat rhoncus dui.
+              During my first year at university, I worked in a medical research
+              lab doing database admin work before spending three summers at
+              Google in San Francisco. Yes, I learned lots of their internal
+              tooling, but also lots of soft-skills in backend! Most of my
+              professional time has been building out ML model demoing tools,
+              API endpoints, and alerting systems for data pipelines.
+            </p>
+            <p>
+              On the side you’ll catch me learning obsolete web frameworks,
+              building for mobile (time to learn Lynx?), and finding UX design
+              work wherever I can!
             </p>
           </div>
-          <img src="/about-image.jpg" alt="Profile" className="about-image" />
+          <img
+            src="/software-image.jpg"
+            alt="Software"
+            className="about-image"
+          />
         </div>
 
         <div className="social-button-navigation">

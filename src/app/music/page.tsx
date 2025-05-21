@@ -22,7 +22,7 @@ export default function Music() {
               Fusce lorem ipsum, dignissim at augue ac, consequat rhoncus dui.
             </p>
           </div>
-          <img src="/about-image.jpg" alt="Profile" className="about-image" />
+          <img src="/music-image.jpg" alt="Music" className="about-image" />
         </div>
 
         <div className="social-button-navigation">
