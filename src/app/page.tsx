@@ -1,7 +1,8 @@
 import React from "react";
 import "./globals.css";
 import "./page.css";
-import Typed_Title from "./typed_title";
+import Typed_Title from "./components/typed_title";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,12 +13,15 @@ export default function Home() {
           {"I'm Colin, and here's a collection of my work."}
         </p>
         <nav>
-          <a href="./about">
-            <div className="nav_button">About</div>
-          </a>
-          <a href="./projects">
-            <div className="nav_button">Projects</div>
-          </a>
+          <Link href="/aboutme">
+            <div className="nav_button">About Me</div>
+          </Link>
+          <Link href="/software">
+            <div className="nav_button">Software</div>
+          </Link>
+          <Link href="/music">
+            <div className="nav_button">Music</div>
+          </Link>
         </nav>
         <img src="withthewater.jpg" className="headshot_main"></img>
         <div className="social_button_navigation">

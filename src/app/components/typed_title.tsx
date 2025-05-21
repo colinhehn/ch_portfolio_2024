@@ -2,7 +2,7 @@
 
 import React from "react";
 import Typed from "typed.js";
-import "./globals.css";
+import "../globals.css";
 
 export default function Typed_Title() {
   // Create reference to store the DOM element containing the animation
@@ -37,9 +37,10 @@ export default function Typed_Title() {
   return (
     <div className="App">
       <span
+        className="poppins-bold"
         ref={el}
         style={{
-          fontSize: "35px",
+          fontSize: "38px",
           fontStyle: "normal",
           fontFamily: "Poppins, sans-serif",
         }}
