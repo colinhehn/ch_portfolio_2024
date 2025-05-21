@@ -1,6 +1,7 @@
 import React from "react";
 import "../../app/globals.css";
 import "./software.css";
+import SocialNavigation from "../components/social_nav";
 
 export default function Software() {
   return (
@@ -35,14 +36,7 @@ export default function Software() {
           />
         </div>
 
-        <div className="social-button-navigation">
-          <a href="https://github.com/colinhehn" target="_blank">
-            <img src="/github-brands.svg" className="social_button" />
-          </a>
-          <a href="https://www.linkedin.com/in/colinhehn/" target="_blank">
-            <img src="/linkedin-brands.svg" className="social_button" />
-          </a>
-        </div>
+        <SocialNavigation />
         <p>&copy; 2025 Colin Hehn</p>
       </main>
     </div>

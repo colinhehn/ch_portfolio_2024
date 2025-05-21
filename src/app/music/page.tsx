@@ -1,6 +1,7 @@
 import React from "react";
 import "../../app/globals.css";
 import "./music.css";
+import SocialNavigation from "../components/social_nav";
 
 export default function Music() {
   return (
@@ -10,29 +11,26 @@ export default function Music() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-              dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed
-              auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in
-              nulla enim. Phasellus molestie magna non est bibendum non
-              venenatis nisl tempor.
+              ive been playing guitar, drums, and piano for a minute. would just
+              make beats with my friends and cover metal songs.
             </p>
             <p>
-              Suspendisse in orci enim. Donec sed ligula in felis ultricies
-              fermentum. Aliquam erat volutpat. Sed congue augue vitae neque.
-              Fusce lorem ipsum, dignissim at augue ac, consequat rhoncus dui.
+              finally got onto FL studio! began with a lofi project → could add
+              links to that
             </p>
+            <p>
+              the big evolution to perseids → when i really wanted to take a
+              shot at making something that’s really my own, and/or tells my
+              story, conveys the feeling that a bunch of music has given me up
+              to this point. (can go more in depth on toyow, etc.) → then add
+              links to all perseids handles
+            </p>
+            <p>wanna see what im working on? → soundcloud link</p>
           </div>
           <img src="/music-image.jpg" alt="Music" className="about-image" />
         </div>
 
-        <div className="social-button-navigation">
-          <a href="https://github.com/colinhehn" target="_blank">
-            <img src="/github-brands.svg" className="social_button" />
-          </a>
-          <a href="https://www.linkedin.com/in/colinhehn/" target="_blank">
-            <img src="/linkedin-brands.svg" className="social_button" />
-          </a>
-        </div>
+        <SocialNavigation />
         <p>&copy; 2025 Colin Hehn</p>
       </main>
     </div>

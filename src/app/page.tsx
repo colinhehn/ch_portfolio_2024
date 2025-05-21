@@ -2,6 +2,7 @@ import React from "react";
 import "./globals.css";
 import "./page.css";
 import Typed_Title from "./components/typed_title";
+import SocialNavigation from "./components/social_nav";
 import Link from "next/link";
 
 export default function Home() {
@@ -24,14 +25,7 @@ export default function Home() {
           </Link>
         </nav>
         <img src="withthewater.jpg" className="headshot_main"></img>
-        <div className="social_button_navigation">
-          <a href="https://github.com/colinhehn" target="_blank">
-            <img src="github-brands.svg" className="social_button"></img>
-          </a>
-          <a href="https://www.linkedin.com/in/colinhehn/" target="_blank">
-            <img src="linkedin-brands.svg" className="social_button"></img>
-          </a>
-        </div>
+        <SocialNavigation />
         <p>&copy; 2025 Colin Hehn</p>
       </main>
     </div>

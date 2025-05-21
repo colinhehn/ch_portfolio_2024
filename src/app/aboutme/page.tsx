@@ -1,6 +1,7 @@
 import React from "react";
 import "../../app/globals.css";
 import "./aboutme.css";
+import SocialNavigation from "../components/social_nav";
 
 export default function AboutMe() {
   return (
@@ -10,29 +11,15 @@ export default function AboutMe() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-              dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed
-              auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in
-              nulla enim. Phasellus molestie magna non est bibendum non
-              venenatis nisl tempor.
+              hi i build software projects, play video games, make coffee, write
+              music, and do athletic shitt!!
             </p>
-            <p>
-              Suspendisse in orci enim. Donec sed ligula in felis ultricies
-              fermentum. Aliquam erat volutpat. Sed congue augue vitae neque.
-              Fusce lorem ipsum, dignissim at augue ac, consequat rhoncus dui.
-            </p>
+            <p>second paragraph lol</p>
           </div>
           <img src="/about-image.jpg" alt="Profile" className="about-image" />
         </div>
 
-        <div className="social-button-navigation">
-          <a href="https://github.com/colinhehn" target="_blank">
-            <img src="/github-brands.svg" className="social_button" />
-          </a>
-          <a href="https://www.linkedin.com/in/colinhehn/" target="_blank">
-            <img src="/linkedin-brands.svg" className="social_button" />
-          </a>
-        </div>
+        <SocialNavigation />
         <p>&copy; 2025 Colin Hehn</p>
       </main>
     </div>
