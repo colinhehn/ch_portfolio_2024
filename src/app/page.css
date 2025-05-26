@@ -85,16 +85,9 @@ a {
 }
 
 .headshot_main {
-    max-width: 40%;
+    max-width: 10%;
     height: auto;
     border-radius: 50%;
-}
-
-.social_button_navigation {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 8px;
 }
 
 .social_button {
@@ -111,4 +104,58 @@ a {
     opacity: 0.7;
     color: #f0ed9d;
     margin-top: 20px;
+}
+
+.social_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #353535;
+    border-color: #525252;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.social_icon {
+    height: 35px;
+    width: auto;
+    margin: 10px;
+}
+
+.new_site_icon {
+    opacity: 0.4;
+    width: 14.056px;
+    height: 16.064px;
+    margin-right: 6px;
+}
+
+.card_subtitle {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Inter;
+    font-size: 13.756px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14.149px;
+}
+
+.card_header {
+    color: #fffeaf;
+    font-family: Inter;
+    font-size: 30.688px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.575px;
+}
+
+.card_body {
+    color: rgba(255, 255, 255, 0.45);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    /* 118.75% */
 }

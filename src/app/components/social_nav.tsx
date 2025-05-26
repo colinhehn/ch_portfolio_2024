@@ -4,7 +4,14 @@ import SocialCard from "./social_card";
 
 export default function SocialNavigation() {
   return (
-    <div className="social_button_navigation">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <div style={{ display: "flex", flexDirection: "row" }}>
         <SocialCard
           icon="social_icons/github.svg"

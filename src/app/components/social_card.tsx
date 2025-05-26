@@ -11,11 +11,29 @@ export default function SocialCard(props: {
   return (
     <a href={props.link} target="_blank">
       <div className="social_card">
-        <div className="header_group">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
           <img src={props.icon} className="social_icon" />
-          <div className="card_header_text">
-            <h1>{props.header}</h1>
-            <div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+            }}
+          >
+            <h1 className="card_header">{props.header}</h1>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+              }}
+            >
               <img src="new_site.svg" className="new_site_icon" />
               <p className="card_subtitle">{props.link_text}</p>
             </div>
