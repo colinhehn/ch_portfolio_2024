@@ -2,7 +2,6 @@
 
 import React from "react";
 import Typed from "typed.js";
-import "../globals.css";
 
 export default function Typed_Title() {
   // Create reference to store the DOM element containing the animation
