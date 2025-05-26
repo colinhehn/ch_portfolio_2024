@@ -24,9 +24,13 @@ export default function SocialCard(props: {
               display: "flex",
               flexDirection: "column",
               alignItems: "flex-start",
+              marginBottom: "10px",
+              marginLeft: "3px",
             }}
           >
-            <h1 className="card_header">{props.header}</h1>
+            <h1 className="card_header" style={{ marginBottom: "-12px" }}>
+              {props.header}
+            </h1>
             <div
               style={{
                 display: "flex",

@@ -10,7 +10,7 @@ export default function Home() {
         <img src="withthewater.jpg" className="headshot_main"></img>
         <Typed_Title />
         <p className="main_subtitle">
-          {"I'm Colin, a developer and musician from Chicago."}
+          {"I'm Colin, an artist and engineer from Chicago."}
         </p>
         <SocialNavigation />
         <p className="copyright">&copy; 2025 Colin Hehn</p>

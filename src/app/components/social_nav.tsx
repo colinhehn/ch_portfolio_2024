@@ -16,39 +16,39 @@ export default function SocialNavigation() {
         <SocialCard
           icon="social_icons/github.svg"
           link="https://github.com/colinhehn"
-          link_text="github.com/colinhehn"
-          header="GitHub"
-          body="Check out my code and projects!"
+          link_text="github.com"
+          header="Software"
+          body="Programming projects, open-source work, and the code for this site!"
         />
         <SocialCard
           icon="social_icons/spotify.svg"
           link="https://spotify.com/"
           link_text="spotify.com"
-          header="Spotify"
-          body="Check out my music!"
+          header="Perseids"
+          body="I write music! Electronic, disco, folk, and whatever else comes out of FL Studio."
         />
       </div>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <SocialCard
           icon="social_icons/youtube.svg"
           link="https://www.youtube.com/@colinhehn"
-          link_text="youtube.com/@colinhehn"
-          header="YouTube"
-          body="Check out my music and videos!"
+          link_text="youtube.com"
+          header="Videos"
+          body="Long-form content, video essays, and other things I like talking about."
         />
         <SocialCard
           icon="social_icons/linkedin.svg"
           link="https://www.linkedin.com/in/colinhehn/"
-          link_text="linkedin.com/in/colinhehn"
-          header="LinkedIn"
-          body="Connect with me professionally!"
+          link_text="linkedin.com"
+          header="Career"
+          body="Professional experience, education, and career info. Let’s get in touch!"
         />
         <SocialCard
           icon="social_icons/instagram.svg"
           link="https://www.instagram.com/colinhehn/"
-          link_text="instagram.com/colinhehn"
-          header="Instagram"
-          body="Check out my photos and posts!"
+          link_text="instagram.com"
+          header="Personal"
+          body="My D2D, “photography,” short-form content, and new music promos."
         />
       </div>
     </div>

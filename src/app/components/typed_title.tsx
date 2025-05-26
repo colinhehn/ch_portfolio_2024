@@ -17,7 +17,6 @@ export default function Typed_Title() {
         "Bonjour!",
         "안녕하세요!",
         "Ciao!",
-        "こんにちは!",
         "Olá!",
         "Привет!",
       ],
