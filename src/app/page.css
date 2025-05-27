@@ -155,6 +155,14 @@ a {
     font-weight: 600;
 }
 
+.cloud {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: auto;
+}
+
 .card_body {
     color: rgba(255, 255, 255, 0.45);
     font-family: Inter;
@@ -163,4 +171,29 @@ a {
     font-weight: 300;
     margin-top: -10px;
     /* 118.75% */
+}
+
+.resume_cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFEAF;
+    border-radius: 10px;
+    padding-inline: 12px;
+    margin-top: 30px;
+}
+
+.file_download_icon {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.resume_cta_text {
+    color: #272727;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
 }
