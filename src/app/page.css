@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (max-width: 768px) {
+    /* Mobile-specific styles go here */
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fffeaf;
+}
+
+body {
+    color: #fffeaf;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.back_button {
+    height: 30px;
+    width: auto;
+    margin: 10px;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.typed-cursor {
+    font-family: "Poppins", sans-serif;
+    color: #fffeaf;
+    font-size: 38px;
+}
+
+a {
+    color: #272727;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.main_subtitle {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+.headshot_main {
+    max-width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.social_button {
+    height: 35px;
+    width: auto;
+    margin: 10px;
+}
+
+.copyright {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 0.8;
+    color: #f0ed9d;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.social_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #353535;
+    border-color: #525252;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 325px;
+    height: 110px;
+    margin: 10px;
+    padding: 18px;
+}
+
+.social_icon {
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+    ;
+}
+
+.new_site_icon {
+    opacity: 0.4;
+    width: 14.056px;
+    height: 16.064px;
+    margin-right: 6px;
+}
+
+.card_subtitle {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Inter;
+    font-size: 13.756px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card_header {
+    color: #fffeaf;
+    font-family: Inter;
+    font-size: 30.688px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.cloud {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: auto;
+}
+
+.card_body {
+    color: rgba(255, 255, 255, 0.45);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: -10px;
+    /* 118.75% */
+}
+
+.resume_cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFEAF;
+    border-radius: 10px;
+    padding-inline: 12px;
+    margin-top: 30px;
+}
+
+.file_download_icon {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.resume_cta_text {
+    color: #272727;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
