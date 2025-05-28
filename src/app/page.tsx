@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <img src="the_sitepic.png" className="headshot_main"></img>
+        <img src="the_icon.png" className="headshot_main"></img>
         <Typed_Title />
         <p className="main_subtitle">
           {"I'm Colin, an artist and engineer from Chicago."}
