@@ -22,7 +22,7 @@ export default function SocialNavigation() {
         />
         <SocialCard
           icon="social_icons/spotify.svg"
-          link="https://spotify.com/"
+          link="https://open.spotify.com/artist/2i6NifU37fwneHjyH2kuQD?si=W49CWLrFQvCM-P3rEFZ7Hg"
           link_text="spotify.com"
           header="Perseids"
           body="I write music! Electronic, disco, folk, and whatever else comes out of FL Studio."
