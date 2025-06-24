@@ -34,15 +34,7 @@ export default function Typed_Title() {
 
   return (
     <div className="App">
-      <span
-        className="poppins-bold"
-        ref={el}
-        style={{
-          fontSize: "38px",
-          fontStyle: "normal",
-          fontFamily: "Poppins, sans-serif",
-        }}
-      />
+      <span className="poppins-bold typed_title" ref={el} />
     </div>
   );
 }

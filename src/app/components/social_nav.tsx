@@ -5,6 +5,7 @@ import SocialCard from "./social_card";
 export default function SocialNavigation() {
   return (
     <div
+      className="social_nav_container"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -12,7 +13,10 @@ export default function SocialNavigation() {
         alignItems: "center",
       }}
     >
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div
+        className="social_nav_row"
+        style={{ display: "flex", flexDirection: "row" }}
+      >
         <SocialCard
           icon="social_icons/github.svg"
           link="https://github.com/colinhehn"
@@ -28,7 +32,10 @@ export default function SocialNavigation() {
           body="I write music! Electronic, disco, folk, and whatever else comes out of FL Studio."
         />
       </div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div
+        className="social_nav_row"
+        style={{ display: "flex", flexDirection: "row" }}
+      >
         <SocialCard
           icon="social_icons/youtube.svg"
           link="https://www.youtube.com/@colinhehn"
@@ -41,14 +48,14 @@ export default function SocialNavigation() {
           link="https://www.linkedin.com/in/colinhehn/"
           link_text="linkedin.com"
           header="Career"
-          body="Professional experience, education, and career info. Let’s get in touch!"
+          body="Professional experience, education, and career info. Let's get in touch!"
         />
         <SocialCard
           icon="social_icons/instagram.svg"
           link="https://www.instagram.com/colinhehn/"
           link_text="instagram.com"
           header="Personal"
-          body="My D2D, “photography,” short-form content, and new music promos."
+          body="My D2D, photography, short-form content, and new music promos."
         />
       </div>
     </div>
